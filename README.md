@@ -1,7 +1,6 @@
 In the project directory, you can run:
-
-### `yarn install`
-
+### 'npm install`
 Instal All dependencies in this project
-
-### `yarn start`
+### `npm start`
+The clear button clears the memory cache ,
+the delete button clears but after it press the clear button to  erase everything on the screen and type again 

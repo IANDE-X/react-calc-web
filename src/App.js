@@ -3,7 +3,8 @@ import Screen from "./components/Screen";
 import ButtonBox from './components/ButtonBox'
 import Button from './components/Button'
 import CalcProvider from "./context/CalcContext";
-import { Textfit } from "react-textfit";
+import { Textfit } from "react-textfit";import React from "react";
+import Header from "./components/Header";
 // import { ThemeContext } from './src/context/ThemeContext';
 // import React, { useState } from 'react';
 
@@ -20,12 +21,12 @@ function App() {
   return (
     <CalcProvider>
       <Wrapper>
+      <Header />
       <Textfit style={{
-         color: "black",
+         color: "#E5E4E2",
          fontSize:25,
            fontFamily:'monospace',
-           fontSize:30,
-           }}>fx-TP-Calculator~082022</Textfit>
+           }}>F-71555G</Textfit>
         <Screen />
         <ButtonBox>
           {btnValues.flat().map((btn, i) => (

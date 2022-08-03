@@ -8,7 +8,8 @@ const getStyleName = btn => {
     '-': 'opt',
     '+': 'opt',
     '/': 'opt',
-    "⌫":'del'
+    "⌫":'d',
+    'C':'c',
   }
   return className[btn]
 }
@@ -103,7 +104,7 @@ const Button = ({ value }) => {
       '=': equalsClick,
       '%': persenClick,
       '+-': invertClick,
-      "⌫":invertClick,
+      "⌫":delClick,
     }
     if(results[value]) {
       return results[value]()

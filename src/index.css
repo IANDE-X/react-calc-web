@@ -17,12 +17,11 @@ body {
 
 .screen {
   height: 6rem;
-  margin-bottom: 2rem;
-  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
   margin:2;
   width: 100;
   border-radius: 0.65rem;
-  
   --x: 50%;
 	--y: 50%;
 	border: 3px transparent;
@@ -32,7 +31,7 @@ body {
 }
 
 .wrapper {
-  background: #8dbed6;
+  background: #243441; /*/#8dbed6*/
   width: 20rem;
   height: 35rem;
   padding: 2rem;
@@ -63,19 +62,23 @@ body {
 }
 
 .button:hover {
-  border: 2px inset #672aa0;
+  border: 2px solid #672aa0;
   
 }
 
 
 .equals {
-  background:rgb(11, 180, 11);
+  background:#4BB543;
   
 }
-.del {
+.c {
+  background: #EA0D01;
+  
+}
+.d {
   background: #EA0D01;
   
 }
 .opt {
-  background:rgba(255, 68, 0, 0.788);
+  background:#ED802E;
 }

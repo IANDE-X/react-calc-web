@@ -16,16 +16,28 @@ body {
 }
 
 .screen {
-  height: 4rem;
-  margin-bottom: 4rem;
+  height: 6rem;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin:2;
+  width: 100;
+  border-radius: 0.65rem;
+  
+  --x: 50%;
+	--y: 50%;
+	border: 3px transparent;
+  border-style:ridge;
+	background: linear-gradient(rgb(255, 255, 255), #F1F2F3) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), #f50b0b, #845EC2) border-box;
+  
 }
 
 .wrapper {
   background: #8dbed6;
   width: 20rem;
+  height: 35rem;
   padding: 2rem;
   margin-top: 4rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   box-shadow: 0px 9px 15px -3px rgba(0,0,0,0.1);
 }
 
@@ -44,18 +56,20 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: #242424;
+  color: #302f2f;
+  font-weight: 400;
   border: none;
   font-size: 1.5rem;
 }
 
 .button:hover {
-  border: 2px solid #672aa0;
+  border: 2px inset #672aa0;
+  
 }
 
 
 .equals {
-  background: lawngreen;
+  background:rgb(11, 180, 11);
   
 }
 .del {
@@ -63,5 +77,5 @@ body {
   
 }
 .opt {
-  background: #6495ED;
+  background:rgba(255, 68, 0, 0.788);
 }

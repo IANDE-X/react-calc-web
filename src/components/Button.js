@@ -8,6 +8,7 @@ const getStyleName = btn => {
     '-': 'opt',
     '+': 'opt',
     '/': 'opt',
+    "⌫":'del',
   }
   return className[btn]
 }
@@ -26,6 +27,10 @@ const Button = ({ value }) => {
   const resetClick = () => {
     setCalc({ sign: '', num: 0, res: 0 })
   }
+  const delClick = () => {
+    setCalc({ sign: '', num: 0, res: 0 })
+  }
+  
   // User click number
   const handleClickButton = () => {
     const numberString = value.toString()
@@ -97,7 +102,8 @@ const Button = ({ value }) => {
       '+': signClick,
       '=': equalsClick,
       '%': persenClick,
-      '+-': invertClick
+      '+-': invertClick,
+      "⌫":delClick,
     }
     if(results[value]) {
       return results[value]()

@@ -21,7 +21,7 @@ body {
 }
 
 .wrapper {
-  background: #f6f8f9;
+  background: #8dbed6;
   width: 20rem;
   padding: 2rem;
   margin-top: 4rem;
@@ -50,14 +50,18 @@ body {
 }
 
 .button:hover {
-  border: 2px dotted #f80a0a;
+  border: 2px solid #672aa0;
 }
+
 
 .equals {
-  background: #4bd086;
-  grid-column: 3/5;
+  background: lawngreen;
+  
 }
-
+.del {
+  background: #EA0D01;
+  
+}
 .opt {
-  background: #f79505;
+  background: #6495ED;
 }

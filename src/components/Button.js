@@ -28,9 +28,8 @@ const Button = ({ value }) => {
   const resetClick = () => {
     setCalc({ sign: '', num: 0, res: 0 })
   }
-  const delClick = () => {
-    setCalc({ sign: '', num: 0, res: 0 })
-  }
+  const delClick =  () => {calc.num(calc.num.slice(0, -1))/// please correct here its deleting all instead of one digit at a time
+  } 
   
   // User click number
   const handleClickButton = () => {
